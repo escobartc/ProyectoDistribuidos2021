@@ -1,0 +1,27 @@
+
+package com.example;
+import org.zeromq.SocketType;
+import org.zeromq.ZContext;
+import org.zeromq.ZMQ;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        try(ZContext contexto = new ZContext()){
+            System.out.println("publicador iniciado");
+            ZMQ.Socket publicador = contexto.createSocket(SocketType.PUB);
+            publicador.bind("tcp://25.6.14.194:2099");
+            int i = 0;
+            while(!Thread.currentThread().isInterrupted()){
+                String mensaje = "puto java" + i;
+                publicador.send(mensaje,0);
+                i++;
+                Thread.sleep(1000);
+            }
+        }
+        catch(Exception e){
+
+        }
+    }
+}

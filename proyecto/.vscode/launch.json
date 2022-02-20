@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch server",
+            "request": "launch",
+            "mainClass": "com.servidores.server",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aspirante",
+            "request": "launch",
+            "mainClass": "com.usuarios.Aspirante",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch Empleador",
+            "request": "launch",
+            "mainClass": "com.usuarios.Empleador",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch oferta",
+            "request": "launch",
+            "mainClass": "com.pfiltro.oferta",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch filtro",
+            "request": "launch",
+            "mainClass": "com.pfiltro.filtro",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch filtro",
+            "request": "launch",
+            "mainClass": "com.filtro.filtro",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch server",
+            "request": "launch",
+            "mainClass": "com.example.server",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch davidXD",
+            "request": "launch",
+            "mainClass": "com.example.davidXD",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch davidXD2",
+            "request": "launch",
+            "mainClass": "com.example.davidXD2",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Publicador",
+            "request": "launch",
+            "mainClass": "com.example.Publicador",
+            "projectName": "proyecto"
+        },
+        {
+            "type": "java",
+            "name": "Launch Suscriptor",
+            "request": "launch",
+            "mainClass": "com.example.Suscriptor",
+            "projectName": "proyecto"
+        }
+    ]
+}
